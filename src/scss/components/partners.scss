@@ -6,7 +6,11 @@
     }
     &__row{
         margin-top: 75px;
-        justify-content: space-around;
+        // justify-content: space-around;
         align-items: center;
+    }
+    &__item{
+        width: 20%;
+        @include flex-center()
     }
 }
