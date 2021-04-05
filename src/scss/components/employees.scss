@@ -1,0 +1,21 @@
+.employees{
+    padding: 114px 0 140px;
+    background-color: $color-wh;
+    &__title{
+        max-width: 740px;
+        text-align: center;
+        margin-bottom: 27px;
+        @include flex-center();
+    }
+    &__text{
+        @include font ( #163A24, 18px, normal, $font-noto);
+        max-width: 760px;
+        text-align: center;
+        margin-bottom: 55px;
+        @include flex-center();
+    }
+    &__content{
+        flex-direction: column;
+        @include flex-center();
+    }
+}

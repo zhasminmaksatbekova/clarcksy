@@ -1,0 +1,13 @@
+.partners {
+  padding-bottom: 130px;
+}
+
+.partners__title {
+  text-align: center;
+}
+
+.partners__row {
+  margin-top: 75px;
+  justify-content: space-around;
+  align-items: center;
+}

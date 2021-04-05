@@ -1,0 +1,20 @@
+.product{
+    background-color: $color-green;
+    padding: 66px 0 139px;
+    &__title{
+        color: $color-white;
+        @include flex-center();
+        margin-bottom: 68px;
+    }
+    &__content{
+        @include flex-center();
+        flex-direction: column;
+    }
+    &__subtitle{
+        @include font($color-white, 18px,normal,$font-noto);
+        margin-bottom: 6px;
+    }
+    &__img{
+        margin-bottom: 30px;
+    }
+}
